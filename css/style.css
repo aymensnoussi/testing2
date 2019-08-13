@@ -1,0 +1,68 @@
+p{ color: seagreen}
+
+/* class*/
+.xyz {color:  black}
+/* id*/
+#abc { color: brown}
+
+.parableu{color: blue}
+
+#parared{color: red}
+
+/* p signifie qu 'on applique le code seulement sur les balises p */
+p.vert{color:green}
+
+.bleu{color: blue}
+
+.vt{
+    color: green;
+}
+/*solid ligne contenue*/
+.bord{border: 1px solid  green;
+    width: 5cm;
+}
+
+a{ color: red;
+text-decoration:none;}
+
+a:hover{color: green;
+text-decoration: underline;}
+
+a:visited{
+    color: gray;
+}
+
+.font1{font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-style: italic;
+font-weight: bolder;}
+
+.font2{font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bolder;}
+
+    .font3{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        font-weight: bold;}
+
+
+        .col{/*color: #0ff0ff*/
+        background-color: rgba(100,0,0.2);
+    width: fit-content;
+opacity: 0.9;}
+
+
+.back{background: url("./../../S1/Html/images/barca.jpg") fixed bottom right;
+width: 1000px;
+height: 1000px;}
+
+.border{border: 3px gray dashed;
+width: fit-content;
+border-top: 3px green dashed;
+border-bottom:  3px red dashed;
+border-radius: 20%  }
+
+ul{list-style-image: url("./../../S1/Html/images/icon.png"); 
+margin-left: 30px}
